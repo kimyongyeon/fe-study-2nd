@@ -58,6 +58,20 @@ const ojb = {
 call,apply,bind,화살표 함수를 사용한다. <strong>화살표 함수 내부의 this은 상위 스코프 this를 가르킨다. </srong>
 </pre>
 
+<pre>아래의 코드는 어떻게 실행될까요?</pre>
+
+```js
+function makeUser() {
+  return {
+    name: "John",
+    ref: this
+  };
+};
+
+let user = makeUser();
+
+alert( user.ref.name ); // 결과가 어떻게 될까요?
+```
 <details>
   <summary>Solution</summary>
   <strong>에러가 발생합니다 - </strong>Error: Cannot read property 'name' of undefined
