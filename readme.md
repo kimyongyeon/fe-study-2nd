@@ -14,6 +14,15 @@
 - 일이 있어서 빠질 경우 미리 말해주기
 - 2명이하로 모일때는 그 주는 쉬게 된다.
 
+# 5회
+
+- TODOMVC 프로젝트 진행하기 : https://todomvc.com/
+- realworld 프로젝트 진행 계획 구상
+  - api spec : https://realworld-docs.netlify.app/docs/specs/backend-specs/endpoints
+  - template : https://realworld-docs.netlify.app/docs/specs/frontend-specs/templates
+  - api endpoint : https://api.realworld.io/api
+  - frontend show case : https://codebase.show/projects/realworld?category=frontend
+
 # 4회
 
 - 모두 MVC 모델 알아오기
